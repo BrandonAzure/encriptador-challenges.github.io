@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar/Decodificar</title>
+    <link rel="stylesheet" href="./css/encrypter.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Work+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="desktop">
+            <div id="logo-desktop">
+                <img src="./images/Vector.png">
+            </div>
+
+            <div id="desktop-text">
+                <textarea name="" id="input-text" class="universal-text" cols="30" rows="10"
+                    placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+
+            <div class="place-buttons">
+                <button id="encrypt">Encriptar</button>
+                <button id="decrypt">Desencriptar</button>
+            </div>
+
+            <div class="message">
+                <textarea disabled name="" id="message-mod" cols="42" rows="37">
+                    </textarea>
+            </div>
+
+            <div class="alert" id="alert-desktop">
+                <label for="">Ningun mensaje fue <br>encontrado</label>
+            </div>
+
+            <div class="alert-2" id="alert-desktop2">
+                <label for="">Ingresa el texto que desees encriptar o <br>desencriptar</label>
+            </div>
+
+            <div class="message-changed">
+                <textarea disabled name="" id="changed-id" cols="23" rows="22"></textarea>
+            </div>
+
+            <div class="copy-desketop">
+                <button id="copy"><span class="material-symbols-outlined" id="logo-copy">
+                        content_paste
+                    </span>Copiar</button>
+            </div>
+
+            <div class="warning-desktop">
+                <label for="" id="warning-desktop-adevertence">
+                    Solo letras minúsculas y sin acentos
+                </label>
+            </div>
+
+            <div class="warning-desktop-2">
+                <img src="./images/Warinig.png" id="warning-img-desktop" alt="">
+            </div>
+        </div>
+
+        <div class="mobile" id="phone">
+            <div id="logo-mobile">
+                <img src="./images/Vector.png">
+            </div>
+
+            <div class="message-mobile">
+                <textarea name="" id="input-text-mobile" cols="16" rows="5" placeholder="Ingrese texto aquí"
+                    class="size"></textarea>
+            </div>
+
+            <div class="warning">
+                <label for="" class="warning-message" id="lettersMobile"><img src="./images/Warinig.png" class="advertence">Solo letras
+                    minúsculas y sin acentos</label>
+            </div>
+
+            <div class="place-buttons-mobile">
+                <button id="encrypt-mobile">Encriptar</button>
+                <button id="decrypt-mobile">Desencriptar</button>
+            </div>
+
+            <div class="message-mod-mobile">
+                <textarea id="mod-mobile" cols="38" rows="10" disabled></textarea>
+            </div>
+
+            <div class="advertence-mobile">
+                <label for="" id="warning-mobile">Ningún mensaje fue <br>encontrado</label>
+                <label for="" id="warning-mobile2">Ingresa el texto que deseas <br> encriptar o desencriptar.</label>
+            </div>
+            
+            <div class="text-result">
+                <textarea name="" id="text-result-mobile" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="place-button-mobile">
+                <button id="button-copy-mobile"><span class="material-symbols-outlined" id="logo-copy-mobile">
+                    content_paste
+                </span>Copiar</button>
+            </div>
+
+        </div>
+        
+        <div class="tablet" id="id-tablet">
+            <div id="logo-tablet">
+                <img src="./images/Vector.png">
+            </div>
+
+            <div id="text-tablet">
+                <textarea name="" id="input-tablet" cols="25" rows="20" placeholder="Ingrese texto aquí"></textarea>
+            </div>
+
+            <div class="place-buttons-tablet">
+                <button id="encrypt-tablet">Encriptar</button>
+                <button id="decrypt-tablet">Desencriptar</button>
+            </div>
+
+            <div class="message-mod-tablet">
+                <textarea disabled name="" id="message-mod-sugerence" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="alert-tablet">
+                <label for="" id="alert-tablet-none">Ningún mensaje fue encontrado</label>
+                <label for="" id="alert-tablet-sugerence">Ingresa el texto que desees encriptar o desencriptar.</label>
+            </div>
+
+            <div class="warning-tablet">
+                <label for="" class="warning-message-tablet"><img src="./images/Warinig.png" class="advertence">Solo
+                    letras
+                    minúsculas y sin acentos</label>
+            </div>
+
+            <div class="result-process">
+                <textarea name="" id="process-encrypt-decrypt" cols="57" rows="9"></textarea>
+            </div>
+
+            <div class="copy-tablet">
+                <button id="button-copy"><span class="material-symbols-outlined" id="logo-copy-tablet">
+                        content_paste
+                    </span>Copiar</button>
+
+                    
+            </div>
+        </div>
+    </div>
+    
+    <script src="./encrypter.js"></script>
+</body>
+
+
+</html>

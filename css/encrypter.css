@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D8DFE8;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    color: darkblue;
+    font-size: 38px;
+}
+
+
+.desktop #logo-desktop img {
+    height: 48px;
+    width: 32px;
+    position: absolute;
+    right: 95%;
+    top: 7%;
+    bottom: 0%;
+}
+
+#desktop-text {
+    position: absolute;
+    top: 168px;
+    left: 240px;
+}
+
+
+
+#input-text {
+    font-size: 38px;
+    text-align: justify;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    border: none;
+    background-color: #D8DFE8;
+    resize: none;
+    line-height: 1.15;
+    width: 680px;
+}
+
+#input-text:focus {
+    outline: none;
+}
+
+#encrypt {
+    position: absolute;
+    top: 300px;
+    margin: 24px;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    background-color: #0A3871;
+    color: white;
+    width: 328px;
+    border-radius: 24px;
+    height: 67px;
+    font-size: 20px;
+    left: 17%;
+    right: 59%;
+    top: 78%;
+}
+
+#decrypt {
+    position: absolute;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    background-color: #D8DFE8;
+    color: darkblue;
+    width: 328px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    height: 67px;
+    font-size: 20px;
+    top: 82%;
+    left: 45%;
+}
+
+#copy {
+    position: absolute;
+    width: 260px;
+    height: 58px;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: darkblue;
+    border-radius: 24px;
+    font-size: 15px;
+    left: 77%;
+    top: 83%;
+    border: 1px solid #0A3871;
+    display: none;
+}
+
+
+
+#logo-copy {
+    position: absolute;
+    left: 28%;
+    align-items: center;
+    top: 32%;
+}
+
+#message-mod {
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    border: none;
+    resize: none;
+    top: 7%;
+    left: 75%;
+    text-align: center;
+    background-size: 300px;
+    background-image: url(/images/Mujer_Con_Lupa.png);
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-position-x: center;
+
+}
+
+
+
+.alert {
+    position: absolute;
+    text-align: center;
+    color: #343A40;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Inter';
+    left: 79%;
+    top: 65%;
+}
+
+.alert-2 {
+    position: absolute;
+    font-style: normal;
+    font-family: 'Inter';
+    color: #495057;
+    font-size: 16px;
+    text-align: center;
+    top: 75%;
+    left: 78%;
+}
+
+
+
+#message-mod:focus {
+    outline: none;
+}
+
+#changed-id {
+    position: absolute;
+    left: 77%;
+    top: 12%;
+    resize: none;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+#changed-id:focus {
+    outline: none;
+}
+
+#changed-id {
+    display: none;
+}
+
+#warning-desktop-adevertence {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #495057;
+    position: absolute;
+    top: 78%;
+    left: 22%;
+}
+
+#warning-img-desktop {
+    position: absolute;
+    left: 20%;
+    top: 78%;
+}
+
+/**Mobile**/
+.mobile {
+    height: 910px;
+}
+
+.main-container .mobile #logo-mobile img {
+    height: 48px;
+    width: 32px;
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    bottom: 0;
+}
+
+#input-text-mobile {
+    border: none;
+    resize: none;
+    line-height: 1.15;
+    text-align: justify;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    /**background-color: aqua;**/
+    font-size: 32px;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+}
+
+#input-text-mobile:focus {
+    outline: none;
+}
+
+.warning-message {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #495057;
+    position: absolute;
+    top: 60%;
+    left: 4%;
+}
+
+#encrypt-mobile {
+    border-radius: 24px;
+    color: white;
+    width: 400px;
+    height: 67px;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    background: #0A3871;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top: 66%;
+    left: 4%;
+}
+
+#decrypt-mobile {
+    border-radius: 24px;
+    color: #0A3871;
+    width: 400px;
+    height: 67px;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    background: #E5E5E5;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 4%;
+}
+
+#mod-mobile {
+    border: none;
+    resize: none;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    position: absolute;
+    border-radius: 32px;
+    top: 100%;
+    left: 4%;
+    background-color: white;
+}
+
+#mod-mobile:focus {
+    outline: none;
+}
+
+#warning-mobile {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #343A40;
+    top: 106%;
+    left: 25%;
+    font-weight: bold;
+
+}
+
+#warning-mobile2 {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    color: #495057;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 118%;
+    left: 28%;
+}
+
+#button-copy-mobile {
+    position: absolute;
+    top: 230%;
+    left: 10%;
+    background-color: white;
+    border-radius: 32px;
+    width: 343px;
+    height: 10%;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    display: none;
+}
+
+#logo-copy-mobile{
+    position: absolute;
+    left: 33%;
+    top: 35%;
+}
+
+#text-result-mobile{
+    border: none;
+    resize: none;
+    background-color: white;
+    position: absolute;
+    top: 102%;
+    left: 8%;
+    width: 360px;
+    height: 180px;
+    display: none;
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+}
+
+#text-result-mobile:focus{
+    outline: none;
+}
+
+
+/**Tablet**/
+.tablet {
+    height: 1065px;
+}
+
+#logo-tablet {
+    position: absolute;
+    left: 5%;
+    top: 7%;
+}
+
+#input-tablet {
+    position: absolute;
+    border: none;
+    resize: none;
+    left: 5%;
+    font-size: 32px;
+    text-align: justify;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    border: none;
+    background-color: #D8DFE8;
+    line-height: 1.15;
+    top: 30%;
+    text-align: justify;
+}
+
+#input-tablet:focus {
+    outline: none;
+}
+
+#encrypt-tablet {
+    width: 290px;
+    height: 67px;
+    background-color: #0A3871;
+    border-radius: 24px;
+    color: white;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top: 120%;
+    left: 5%;
+}
+
+#decrypt-tablet {
+    width: 290px;
+    height: 67px;
+    border-radius: 24px;
+    color: #0A3871;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 120%;
+    left: 52%;
+    background-color: #E5E5E5;
+}
+
+#alert-tablet-none {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #343A40;
+    top: 145%;
+    left: 25%;
+}
+
+#alert-tablet-sugerence {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #343A40;
+    top: 152%;
+    left: 25%;
+}
+
+#message-mod-sugerence {
+    width: 605px;
+    height: 133px;
+    border: none;
+    resize: none;
+    border-radius: 32px;
+    position: absolute;
+    left: 5%;
+    top: 140%;
+    background-color: white;
+}
+
+.warning-message-tablet {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #495057;
+    position: absolute;
+    top: 114%;
+    left: 4%;
+}
+
+#process-encrypt-decrypt:focus {
+    outline: none;
+}
+
+#process-encrypt-decrypt {
+    position: absolute;
+    border: none;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    top: 143%;
+    left: 7%;
+    text-align: justify;
+    resize: none;
+    display: none;
+}
+
+#button-copy {
+    position: absolute;
+    border-radius: 32px;
+    width: 560px;
+    height: 50px;
+    background: none;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    top: 175%;
+    left: 8%;
+    display: none;
+}
+
+#logo-copy-tablet {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+@media (max-width:1450px) {
+    .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+}
+
+@media (max-width:540px) {
+
+
+    .main-container .desktop {
+        display: none;
+    }
+
+    .main-container .tablet {
+        display: none;
+    }
+
+    .main-container .mobile {
+        display: block;
+    }
+}
